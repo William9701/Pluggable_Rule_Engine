@@ -1,11 +1,13 @@
 # 🚀 Pluggable Rule Engine
 
-[![CI/CD Pipeline](https://github.com/YOUR_USERNAME/pluggable-rule-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/pluggable-rule-engine/actions)
+[![CI/CD Pipeline](https://github.com/William9701/Pluggable_Rule_Engine/actions/workflows/ci.yml/badge.svg)](https://github.com/William9701/Pluggable_Rule_Engine/actions)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Django 5.0](https://img.shields.io/badge/django-5.0-green.svg)](https://www.djangoproject.com/)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Live Demo](https://img.shields.io/badge/demo-live-success.svg)](https://pluggable-rule-engine.onrender.com)
 
 A flexible, production-ready Django application featuring a **pluggable rule engine** for order validation. Built with enterprise-level standards, comprehensive testing, and auto-registration capabilities.
+
+**🌐 Live Demo:** [https://pluggable-rule-engine.onrender.com](https://pluggable-rule-engine.onrender.com)
 
 ## ✨ Features
 
@@ -78,21 +80,21 @@ class MyCustomRule(BaseRule):
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/pluggable-rule-engine.git
-cd pluggable-rule-engine
+git clone https://github.com/William9701/Pluggable_Rule_Engine.git
+cd Pluggable_Rule_Engine
 
 # Start with Docker Compose
 docker-compose up
 
-# API will be available at http://localhost:8000
+# API will be available at https://pluggable-rule-engine.onrender.com
 ```
 
 ### Option 2: Local Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/pluggable-rule-engine.git
-cd pluggable-rule-engine
+git clone https://github.com/William9701/Pluggable_Rule_Engine.git
+cd Pluggable_Rule_Engine
 
 # Create virtual environment
 python -m venv venv
@@ -115,12 +117,12 @@ python manage.py runserver
 
 ### 1. Access the API Documentation
 
-Navigate to http://localhost:8000 to see the interactive Swagger documentation.
+Navigate to https://pluggable-rule-engine.onrender.com to see the interactive Swagger documentation.
 
 ### 2. Check Available Rules
 
 ```bash
-curl http://localhost:8000/rules/
+curl https://pluggable-rule-engine.onrender.com/rules/
 ```
 
 Response:
@@ -144,7 +146,7 @@ Response:
 ### 3. Validate an Order
 
 ```bash
-curl -X POST http://localhost:8000/rules/check/ \
+curl -X POST https://pluggable-rule-engine.onrender.com/rules/check/ \
   -H "Content-Type: application/json" \
   -d '{
     "order_id": 1,
@@ -354,9 +356,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
-
-Project Link: [https://github.com/YOUR_USERNAME/pluggable-rule-engine](https://github.com/YOUR_USERNAME/pluggable-rule-engine)
+Project Link: [https://github.com/William9701/Pluggable_Rule_Engine](https://github.com/William9701/Pluggable_Rule_Engine)
 
 Live Demo: [https://pluggable-rule-engine.onrender.com](https://pluggable-rule-engine.onrender.com)
 
