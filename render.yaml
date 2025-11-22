@@ -3,7 +3,7 @@ services:
     name: pluggable-rule-engine
     env: python
     plan: free
-    buildCommand: "pip install -r requirements.txt && python manage.py collectstatic --noinput && python manage.py migrate"
+    buildCommand: "pip install -r requirements.txt && python manage.py collectstatic --noinput && python manage.py migrate && python manage.py seed_orders"
     startCommand: "gunicorn config.wsgi:application"
     envVars:
       - key: SECRET_KEY
