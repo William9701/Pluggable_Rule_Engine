@@ -1,0 +1,23 @@
+Subject: Django Pluggable Rule Engine - Project Submission
+
+Hello,
+
+I have successfully completed the Django Pluggable Rule Engine project.
+
+GitHub Repository: https://github.com/William9701/Pluggable_Rule_Engine
+Live Demo: https://pluggable-rule-engine.onrender.com
+
+The project includes:
+• Order model with 3 seeded orders
+• Pluggable rule engine with auto-registration
+• 3 rules implemented: min_total_100, min_items_2, divisible_by_5
+• POST /rules/check/ API endpoint working as specified
+• Interactive Swagger UI for testing
+• Comprehensive tests (all passing)
+• Professional commit history
+
+You can test the API directly in the browser using the Swagger UI at the live demo link above.
+
+Thank you!
+
+Best regards

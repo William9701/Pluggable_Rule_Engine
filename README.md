@@ -1,13 +1,17 @@
 # 🚀 Pluggable Rule Engine
 
+A flexible, production-ready Django application featuring a **pluggable rule engine** for order validation. Built with enterprise-level standards, comprehensive testing, and auto-registration capabilities.
+
+## 🌐 Live Demo & Interactive API
+
+**➡️ [Try the Live Demo (Swagger UI)](https://pluggable-rule-engine.onrender.com) ⬅️**
+
+Test all endpoints directly in your browser - no setup required!
+
 [![CI/CD Pipeline](https://github.com/William9701/Pluggable_Rule_Engine/actions/workflows/ci.yml/badge.svg)](https://github.com/William9701/Pluggable_Rule_Engine/actions)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Django 5.0](https://img.shields.io/badge/django-5.0-green.svg)](https://www.djangoproject.com/)
 [![Live Demo](https://img.shields.io/badge/demo-live-success.svg)](https://pluggable-rule-engine.onrender.com)
-
-A flexible, production-ready Django application featuring a **pluggable rule engine** for order validation. Built with enterprise-level standards, comprehensive testing, and auto-registration capabilities.
-
-**🌐 Live Demo:** [https://pluggable-rule-engine.onrender.com](https://pluggable-rule-engine.onrender.com)
 
 ## ✨ Features
 
