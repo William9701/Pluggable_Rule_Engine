@@ -7,9 +7,10 @@ class Command(BaseCommand):
     help = 'Seeds the database with example orders'
 
     def handle(self, *args, **kwargs):
-        # Clear existing orders
-        Order.objects.all().delete()
-        self.stdout.write(self.style.WARNING('Cleared existing orders'))
+        # Only seed if no orders exist
+        if Order.objects.exists():
+            self.stdout.write(self.style.WARNING('Orders already exist. Skipping seed.'))
+            return
 
         # Create example orders
         orders_data = [
