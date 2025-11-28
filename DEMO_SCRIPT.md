@@ -2,7 +2,13 @@
 
 ## **INTRODUCTION (30 seconds)**
 
-"Hi! I built a Django-based rule engine for validating e-commerce orders. The cool part is it uses Python metaclasses to automatically register new rules - meaning you can add features without changing existing code. It's live on Render right now with interactive Swagger documentation."
+"Hi! So I was given a task to build a Django pluggable rule engine that validates orders against business rules. The specific requirements were:
+- Create an Order model with total and item count
+- Build a rule engine where rules auto-register themselves
+- Implement three specific rules: minimum total, minimum items, and divisibility
+- Expose a REST API endpoint
+
+The interesting part of this challenge was the 'auto-registration' requirement - rules needed to register without modifying existing code. I solved this using Python metaclasses, and it's currently live on Render with full Swagger documentation."
 
 **Show:** https://pluggable-rule-engine.onrender.com
 
